@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sailor/sailor.dart';
 
-class ThirdPageArgs {
+class ThirdPageArgs extends BaseArguments {
   final String productName;
   final double price;
 
